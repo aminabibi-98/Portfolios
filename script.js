@@ -73,7 +73,7 @@
     },
     {
       id: "preload-5",
-      title: "Geospatial Crime, Venue &amp; Air-Quality Hotspots",
+      title: "Geospatial Crime, Venue & Air-Quality Hotspots",
       period: "M.Sc. coursework",
       category: "spatial-stats",
       summary:
@@ -97,7 +97,7 @@
     },
     {
       id: "preload-7",
-      title: "Hyperspectral &amp; UAV Vegetation Analysis",
+      title: "Hyperspectral & UAV Vegetation Analysis",
       period: "M.Sc. coursework",
       category: "fieldwork",
       summary:
@@ -105,6 +105,42 @@
       tools: ["ENVI", "HySpex", "UAV photogrammetry", "Vegetation indices"],
       link: "",
       linkLabel: "",
+      preloaded: true
+    },
+    {
+      id: "preload-8",
+      title: "Pattern Recognition: Time Series Analysis",
+      period: "",
+      category: "remote-sensing",
+      summary:
+        "A closer look at time-series pattern recognition methods applied to long-term satellite archives.",
+      tools: [],
+      link: "assets/Pattern_Recognition_Time_Series.pdf",
+      linkLabel: "Read the paper (PDF)",
+      preloaded: true
+    },
+    {
+      id: "preload-9",
+      title: "Remote Sensing of Global Change",
+      period: "",
+      category: "remote-sensing",
+      summary:
+        "Term paper examining global change processes through remote sensing observation.",
+      tools: [],
+      link: "assets/RS_Global_Change_Term_Paper.pdf",
+      linkLabel: "Read the paper (PDF)",
+      preloaded: true
+    },
+    {
+      id: "preload-10",
+      title: "Advanced Remote Sensing",
+      period: "",
+      category: "remote-sensing",
+      summary:
+        "Advanced term paper in remote sensing methods and applications.",
+      tools: [],
+      link: "assets/Advanced_RS_Term_Paper.pdf",
+      linkLabel: "Read the paper (PDF)",
       preloaded: true
     }
   ];
