@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amina Bibi — Geoinformatics & Remote Sensing</title>
+<meta name="description" content="Portfolio of Amina Bibi, M.Sc. Geoinformatics candidate at Universität Trier, specializing in remote sensing, geospatial data science and land-change analysis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a class="nav__mark" href="#top" aria-label="Home">
+    <span class="nav__mark-pin">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true">
+        <path d="M12 22s7-7.58 7-13A7 7 0 1 0 5 9c0 5.42 7 13 7 13Z" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="12" cy="9" r="2.4" stroke="currentColor" stroke-width="1.6"/>
+      </svg>
+    </span>
+    AB <span class="nav__mark-sub">· 49.75°N 6.64°E</span>
+  </a>
+  <nav class="nav__links" id="navLinks">
+    <a href="#about">Profile</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="nav__cta" href="assets/Amina_Bibi_CV.pdf" download>Download CV</a>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <svg class="hero__contours" viewBox="0 0 1200 700" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M-50,620 C 150,560 300,660 500,600 C 700,540 850,640 1250,560" />
+      <path d="M-50,540 C 180,480 330,580 520,520 C 730,460 880,560 1250,480" />
+      <path d="M-50,460 C 200,400 350,500 540,440 C 750,380 900,480 1250,400" />
+      <path d="M-50,380 C 220,320 370,420 560,360 C 770,300 920,400 1250,320" />
+      <path d="M-50,300 C 240,240 390,340 580,280 C 790,220 940,320 1250,240" />
+    </svg>
+    <div class="hero__inner">
+      <p class="hero__coords">TRIER, DE · SHEET 1 OF 6 · SCALE 1:—</p>
+      <h1 class="hero__title">Amina Bibi</h1>
+      <p class="hero__role">Geoinformatics &amp; Remote Sensing</p>
+      <p class="hero__lede">
+        M.Sc. candidate at Universität Trier, mapping land-cover change, vegetation
+        dynamics and environmental patterns from satellite archives &mdash; from
+        Google Earth Engine to R and hyperspectral UAV data.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#projects">See the projects</a>
+        <a class="btn btn--ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero__legend">
+      <div class="legend-box">
+        <p class="legend-box__title">Legend</p>
+        <ul>
+          <li><span class="swatch swatch--forest"></span>Remote sensing &amp; GIS</li>
+          <li><span class="swatch swatch--moss"></span>Spatial statistics</li>
+          <li><span class="swatch swatch--water"></span>Web-GIS development</li>
+          <li><span class="swatch swatch--clay"></span>Environmental fieldwork</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-head">
+      <p class="section-head__coord">01 — Profile</p>
+      <h2>Reading landscapes through data</h2>
+    </div>
+    <div class="about__grid">
+      <p class="about__text">
+        I'm a geoinformatics student based in Trier, Germany, currently completing an
+        M.Sc. in Geoinformatik. My work sits at the intersection of remote sensing,
+        spatial statistics and environmental science &mdash; tracing how forests,
+        cropland and cities shift over decades of satellite observation, and building
+        the tools that make those shifts visible.
+      </p>
+      <p class="about__text">
+        Before Trier, I studied Environmental Sciences in Islamabad and worked across
+        environmental data science, science education and international development
+        research in Pakistan. That path shows up in how I work now: I care as much
+        about what a dataset means for people and places as I do about the
+        classification accuracy behind it.
+      </p>
+      <dl class="about__facts">
+        <div>
+          <dt>Based in</dt>
+          <dd>Trier, Germany</dd>
+        </div>
+        <div>
+          <dt>Studying</dt>
+          <dd>M.Sc. Geoinformatik, Universität Trier</dd>
+        </div>
+        <div>
+          <dt>Languages</dt>
+          <dd>Urdu (native) · English (fluent) · German (B2)</dd>
+        </div>
+        <div>
+          <dt>Focus</dt>
+          <dd>Land-cover change · vegetation dynamics · spatial data science</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-head">
+      <p class="section-head__coord">02 — Toolkit</p>
+      <h2>Instruments &amp; methods</h2>
+    </div>
+    <div class="skills__grid">
+      <div class="skill-group">
+        <h3>Software</h3>
+        <ul class="tag-list">
+          <li>ArcGIS</li><li>QGIS</li><li>ENVI</li><li>ERDAS Imagine</li>
+          <li>Google Earth Engine</li><li>RStudio</li><li>MS Office</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Languages &amp; analysis</h3>
+        <ul class="tag-list">
+          <li>Python</li><li>R</li><li>JavaScript</li><li>HTML / CSS</li>
+          <li>Machine learning</li><li>Spatial regression</li><li>Point pattern analysis</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Remote sensing</h3>
+        <ul class="tag-list">
+          <li>Landsat &amp; Sentinel</li><li>Hyperspectral (HySpex)</li>
+          <li>UAV / photogrammetry</li><li>Change detection</li>
+          <li>Time-series &amp; phenology</li><li>Accuracy assessment</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience" id="experience">
+    <div class="section-head">
+      <p class="section-head__coord">03 — Elevation profile</p>
+      <h2>Experience</h2>
+    </div>
+    <ol class="timeline">
+      <li class="timeline__item">
+        <p class="timeline__date">11/2024 &ndash; 02/2025</p>
+        <h3>Student Assistant, Orientation Programme</h3>
+        <p class="timeline__org">Universität Trier &middot; Trier, Germany</p>
+        <p>Supported incoming students through orientation and organised events and
+          workshops to ease the start of their studies.</p>
+      </li>
+      <li class="timeline__item">
+        <p class="timeline__date">09/2022 &ndash; 03/2023</p>
+        <h3>Science Teacher</h3>
+        <p class="timeline__org">APSACS &middot; Pakistan</p>
+        <p>Analysed student performance and assessment data to identify learning
+          trends and gaps; developed structured STEM activities and data-driven
+          reporting to improve teaching strategy.</p>
+      </li>
+      <li class="timeline__item">
+        <p class="timeline__date">06/2022 &ndash; 08/2022</p>
+        <h3>China Fellowship Award</h3>
+        <p class="timeline__org">AIERD / CPEC, PMAS-Arid Agriculture University &middot; Rawalpindi, Pakistan</p>
+        <p>Researched China's economic, social and geopolitical role globally, with a
+          focus on China&ndash;Pakistan cooperation and CPEC; contributed to
+          international development and sustainability discussions.</p>
+      </li>
+      <li class="timeline__item">
+        <p class="timeline__date">06/2021 &ndash; 05/2022</p>
+        <h3>Environmental Data Science Intern</h3>
+        <p class="timeline__org">EHSS &middot; Karachi, Pakistan</p>
+        <p>Collected, cleaned, validated and statistically analysed environmental
+          data; visualised biodiversity and environmental-quality indicators to
+          support sustainability assessments.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="section-head">
+      <p class="section-head__coord">04 — Field sheets</p>
+      <h2>Projects</h2>
+      <p class="section-head__lede">
+        Selected coursework and research from the M.Sc. Geoinformatik programme,
+        plus space to add your own. Anything you add below is saved in this browser
+        only, on this device.
+      </p>
+    </div>
+
+    <div class="projects__filter" id="projectFilter" role="group" aria-label="Filter projects by category">
+      <button class="filter-chip is-active" data-filter="all">All</button>
+    </div>
+
+    <div class="projects__grid" id="projectsGrid"></div>
+
+    <div class="add-project" id="addProjectPanel">
+      <button class="add-project__toggle" id="addProjectToggle" aria-expanded="false" aria-controls="addProjectForm">
+        <span class="add-project__toggle-icon" aria-hidden="true">+</span>
+        Add a project
+      </button>
+      <form class="add-project__form" id="addProjectForm" hidden>
+        <div class="form-row">
+          <label for="p-title">Title</label>
+          <input id="p-title" name="title" type="text" required maxlength="90" placeholder="e.g. Coastal erosion mapping with Sentinel-2">
+        </div>
+        <div class="form-row form-row--split">
+          <div>
+            <label for="p-period">Period</label>
+            <input id="p-period" name="period" type="text" placeholder="e.g. Winter 2026">
+          </div>
+          <div>
+            <label for="p-category">Category</label>
+            <select id="p-category" name="category">
+              <option value="remote-sensing">Remote sensing</option>
+              <option value="spatial-stats">Spatial statistics</option>
+              <option value="web-gis">Web-GIS</option>
+              <option value="fieldwork">Fieldwork</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="p-summary">Summary</label>
+          <textarea id="p-summary" name="summary" rows="3" required maxlength="400" placeholder="What did you study, and what did you find?"></textarea>
+        </div>
+        <div class="form-row">
+          <label for="p-tools">Tools &amp; methods <span class="form-hint">(comma-separated)</span></label>
+          <input id="p-tools" name="tools" type="text" placeholder="e.g. QGIS, Python, Random Forest">
+        </div>
+        <div class="form-row">
+          <label for="p-link">Link <span class="form-hint">(optional &mdash; URL or file you host elsewhere)</span></label>
+          <input id="p-link" name="link" type="url" placeholder="https://&hellip;">
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn--primary">Save project</button>
+          <button type="button" class="btn btn--ghost" id="cancelAddProject">Cancel</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="data-tools">
+      <button class="link-btn" id="exportProjects">Export my projects (.json)</button>
+      <label class="link-btn link-btn--file">
+        Import projects (.json)
+        <input type="file" id="importProjects" accept="application/json" hidden>
+      </label>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <svg class="contact__contours" viewBox="0 0 1200 400" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M-50,80 C 200,20 350,120 550,60 C 760,0 900,100 1250,20" />
+      <path d="M-50,160 C 220,100 370,200 570,140 C 780,80 920,180 1250,100" />
+      <path d="M-50,240 C 240,180 390,280 590,220 C 800,160 940,260 1250,180" />
+    </svg>
+    <div class="contact__inner">
+      <p class="section-head__coord">05 — Coordinates</p>
+      <h2>Let's talk about a project</h2>
+      <p class="contact__lede">
+        Open to research collaborations, working student roles and geospatial
+        projects in remote sensing, land-cover change or environmental monitoring.
+      </p>
+      <div class="contact__grid">
+        <a class="contact__card" href="mailto:aminachaudhry98@gmail.com">
+          <span class="contact__label">Email</span>
+          <span class="contact__value">aminachaudhry98@gmail.com</span>
+        </a>
+        <a class="contact__card" href="tel:+491758864350">
+          <span class="contact__label">Phone</span>
+          <span class="contact__value">+49 175 8864350</span>
+        </a>
+        <a class="contact__card" href="https://linkedin.com/in/aminachaudhry98" target="_blank" rel="noopener">
+          <span class="contact__label">LinkedIn</span>
+          <span class="contact__value">/in/aminachaudhry98</span>
+        </a>
+        <a class="contact__card" href="assets/Amina_Bibi_CV.pdf" download>
+          <span class="contact__label">CV</span>
+          <span class="contact__value">Download PDF</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Amina Bibi. Built as a static site &mdash; edit freely.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
